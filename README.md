@@ -22,11 +22,7 @@ Specifications:
 
 ## Things to consider
 
-<<<<<<< HEAD
-- Sorting has only one direction.
-=======
 - Sorting has only one direction
->>>>>>> a1b1b9ebe1d3ecb1115c264d657498f9553b04a1
 - Pushing .env file for simplicity of configuration. It should be ignored.
 - There is a single branch and the repository does not work with pull requests since it was not asked.
 - There are improvements to be done: unit testing, error handling and logging in this example are just a glimpse of what it can be done. Since these topics were not part of the goals, there was no focus on them. Also missing functional testing.
