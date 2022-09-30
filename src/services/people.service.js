@@ -31,7 +31,7 @@ async function getPeople(sortBy){
     people = people.concat(response.data.results);
   } while (nextUrl != null);
   
-  people.sort(getSortingMethod(sortBy))
+  if (sortBy) people.sort(getSortingMethod(sortBy))
   return people;
 }
 
